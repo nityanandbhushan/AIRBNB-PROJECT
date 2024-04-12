@@ -40,9 +40,7 @@ async function main(){
     await mongoose.connect(url);
 };  
  
-app.get("/",(req,res)=>{ 
-    res.send("Hi, I am root");
-});
+
 
 const sessionOptions={ 
     secret:"mysecretcode",

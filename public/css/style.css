@@ -120,5 +120,7 @@ border: none !important;
 #map {
     height: 400px; 
     width: 80vh;
+    display: flex; 
+    align-items: center;
   }
 
